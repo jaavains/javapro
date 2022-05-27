@@ -12,7 +12,7 @@ public class Variables {
                         // so casting should be done.
     long l2 = i1 ; // auto casting .
 
-    double d1 = (2 + 3 ) / 2; // outputs an int. 2.0
+    double d1 = (2 + 3 ) / 2;  // outputs an int. 2.0
     double d2 = (double )(2 + 3 ) / 2; // outputs a double. 2.5
 
     public static void main(String[] args) {
