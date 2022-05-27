@@ -24,7 +24,7 @@ public class basics {
         Student st = new Student() ; // object reference as its an object , bit depth is JVM specific.
         String s = "avin";           // object reference as String is a class
 
-        // expressions -> evaluated to single value.
+        // expressions ->  evaluated to single value.
         int b = a + 10;
         System.out.println(Long.MAX_VALUE);
         int aBinary = 0b1001;
