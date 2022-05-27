@@ -5,7 +5,7 @@ import basics.dtypes.Student;
 import java.math.BigDecimal;
 
 public class basics {
-// JAVA Is statistically typed language.
+// JAVA Is statistically typed language. Once we define a type, we can only assign values of that type.
 //1.    We can skip assignment at class level ( defaults to 0 for int ) , but it should be done in method.
 //2.   We should assign at method level.
 
