@@ -1,6 +1,7 @@
 package basics;
 
 public  class Primitives {
+    // here digits are the bits for each type.
     byte b = 8;    // All are in bits
     short s = 16;  // Range - 2^15 to 2^15 -1
     int i =  32;   // All are integer types and default to 0 .
@@ -10,7 +11,15 @@ public  class Primitives {
     // All primitives has box primitives . For int its Integer.
 
     float f = 32.0f ;  // 6-7 digit precision  . By default its double , we should include a f !
-    double d = 64.0 ;  // 15-16 digit precision. | 3.8e4 = 38000.0
+    double d = 64.0 ;  // 15-16 digit precision. | 3.8e4 = 38000.0 | in 64 bits , 1 is for sign, 11 are for exponent , 52 for fractional part.
+
+/*
+*
+*Precision is the total number of digits (or significant digits) of a real number.
+
+Scale specifies the number of digits after the decimal place.
+* For example, 12.345 has the precision of 5 (total digits) and the scale of 3 (number of digits right of the decimal).
+* */
 
 
     char bb = 'B';     // 16 digit unsigned.  2^16 -1 = 65536 .
