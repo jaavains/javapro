@@ -21,7 +21,7 @@ public class basics {
         // literals are raw data.
 //                                   Varialble is of 2 types , primitive / object type.
         int a = 10;                  // primitive variable
-        Student st = new Student() ; // object reference as its an object
+        Student st = new Student() ; // object reference as its an object , bit depth is JVM specific.
         String s = "avin";           // object reference as String is a class
 
         // expressions -> evaluated to single value.
