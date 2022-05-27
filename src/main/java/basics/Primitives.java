@@ -16,7 +16,6 @@ public  class Primitives {
 /*
 *
 *Precision is the total number of digits (or significant digits) of a real number.
-
 Scale specifies the number of digits after the decimal place.
 * For example, 12.345 has the precision of 5 (total digits) and the scale of 3 (number of digits right of the decimal).
 * */
