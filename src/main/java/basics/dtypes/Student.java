@@ -2,7 +2,7 @@ package basics.dtypes;
 
 public class Student {
     int a;
-    public static String school = "DCPS"; // if not public , outside package of dtypes cant see this.
+    public static String school = "DCPS"; // if not public , classes outside dtype package cannt see this Class.
     int b = a+1;  // expression.
 
     public void compute(){
