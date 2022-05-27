@@ -15,7 +15,6 @@ public class day1 {
     public static void main(String[] args) {
         int a = 100 ; // here we should initialize also.
         int b = (int) 100L ; // we should always cast when coming down from large to small objects
-
         System.out.println("8 primitive types are present .");
         s1.updateSchool(); // null pointer exception.
     }
