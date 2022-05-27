@@ -2,9 +2,11 @@ package basics;
 
 import basics.dtypes.Student;
 
-public class day1 {
+import java.math.BigDecimal;
+
+public class basics {
 // JAVA Is statistically typed language.
-//1.    We can leave assiging at class level ( defaults to 0 for int ) , but it should be done in method.
+//1.    We can skip assignment at class level ( defaults to 0 for int ) , but it should be done in method.
 //2.   We should assign at method level.
 
     int c = 10;  // declaration statements can appear anywhere in the class & initialization is optional at class level.
@@ -17,9 +19,10 @@ public class day1 {
     public static void main(String[] args) {
         statMethod();
         // literals are raw data.
-        int a = 10;             // primitive variable
+//                                   Varialble is of 2 types , primitive / object type.
+        int a = 10;                  // primitive variable
         Student st = new Student() ; // object reference as its an object
-        String s = "avin";      // so  object reference | String is a class
+        String s = "avin";           // object reference as String is a class
 
         // expressions -> evaluated to single value.
         int b = a + 10;
@@ -27,7 +30,15 @@ public class day1 {
         int aBinary = 0b1001;
         int aHex = 0x100;
         System.out.println(String.format("aBinary = %d | aHex = %d ", aBinary,aHex));
+        System.out.println(3.8e4);   // 38000.0
+        System.out.println( 1 - .9 ); // 0.09999999999999998 | Binary floating format ,so .0 and all cann't be accurately represented
+        BigDecimal bg = BigDecimal.valueOf(1);  // Use for money
+        System.out.println(bg.subtract(BigDecimal.valueOf(.9)));
+        System.out.println(1 - 0.13 ); // Issue is because denominator is not power of 2 !
+
+
     }
+
 }
 
 
