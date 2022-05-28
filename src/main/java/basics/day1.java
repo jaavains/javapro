@@ -12,7 +12,7 @@ public class day1 {
     public String pubStr; // public can be accessible outside of package also.
 
     static Student s1;  // this gives null pointer.
-    public static void main(String[] args) {
+    public static void main(String[] args) { // '{' means multiple statements and dont need a ; !
         int a = 100 ; // here we should initialize also.
         int b = (int) 100L ; // we should always cast when coming down from large to small objects
         System.out.println("8 primitive types are present .");
