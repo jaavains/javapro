@@ -4,7 +4,7 @@ public class Operators {
 //     unary -> -10 , here - is unary operator & in x++ its postfix
 //    binary -> a + b
 //   ternary ->  always uses only ?:  | x>2 ? 1 : 0
-//    compound operators -> += , -= ..
+//    Compound operators -> += , -= ..
 // Operator precedence .
 //    *,/,% ( multiplicative )  > - , + ( additive )
 //    ! > arthimatic  > comparision > && , || | So keep && , || in between ().
