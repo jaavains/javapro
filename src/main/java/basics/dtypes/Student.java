@@ -2,8 +2,17 @@ package basics.dtypes;
 
 public class Student {
     int a;
-    public static String school = "DCPS"; // if not public , classes outside dtype package cannt see this Class.
-    int b = a+1;  // expression.
+    String name,cls,school;
+    public static String schooled = "DCPS"; // if not public , classes outside dtype package cannt see this Class.
+
+    public Student(){}
+    public Student(String name,String cls,String school){
+        this.name = name;
+        this.cls = cls;
+        this.school = school;
+
+        return; // we need not use a return but when we use if we can break it.
+    }
 
     public void compute(){
 

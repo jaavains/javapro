@@ -6,7 +6,8 @@ public class Arrays {
     // Container OBJECT that holds fixes number of values of single type.
     int[] nonstatic = new int[3]; // this is nonstatic , so cant use it in static main method.
     static int[] arr2;// static object can be used in  main method which is static. this is null as its not initialized.
-    // / System.out.println(arr2); // Unknown class arr2. as we only can initialize objects ! ! !
+   //System.out.println(arr2); // Unknown class arr2. as we only can initialize objects ! ! !
+//  System.out.println(); // Cannot resolve symbol 'println' ! ! !
     public static void main(String[] args) {
         System.out.println(arr2); // It identified this but prints null .
         //        System.out.println(arr2[0]); // NullpointerException

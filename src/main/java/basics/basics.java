@@ -23,7 +23,7 @@ public class basics {
         int a = 10;                  // primitive variable
         Student st = new Student() ; // object reference as its an object , bit depth is JVM specific.
         String s = "avin";           // object reference as String is a class
-
+        Student sinit = new Student("av","in","as");
         // expressions ->  evaluated to single value.
         int b = a + 10;
         System.out.println(Long.MAX_VALUE);

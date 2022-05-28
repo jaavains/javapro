@@ -17,9 +17,9 @@ public class Variables {
 
     public static void main(String[] args) {
         Student s1 = new Student();          // Static String school = "DCPS";
-        System.out.println(Student.school);  //  Static variables can be accessed from class itself.
+        System.out.println(Student.schooled);  //  Static variables can be accessed from class itself.
         s1.updateSchool();                   //  Updates Class's variable.
-        System.out.println(Student.school);  //
+        System.out.println(Student.schooled);  //
     }
 
     void methodVariable(){
