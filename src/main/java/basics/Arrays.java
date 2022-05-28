@@ -2,17 +2,17 @@ package basics;
 
 import basics.dtypes.Student;
 
-import java.util.Arrays;
-
-public class Arrayzs {
+public class Arrays {
     // Container OBJECT that holds fixes number of values of single type.
     int[] nonstatic = new int[3]; // this is nonstatic , so cant use it in static main method.
     static int[] arr2;// static object can be used in  main method which is static. this is null as its not initialized.
+    // / System.out.println(arr2); // Unknown class arr2. as we only can initialize objects ! ! !
     public static void main(String[] args) {
+        System.out.println(arr2); // It identified this but prints null .
+        //        System.out.println(arr2[0]); // NullpointerException
         int[] directinitialize = new int[] {1,2,3,4}; // direct initialization.
         int[] initialize_auto = {1,2,3,4}; // another type of  initialization.
-        System.out.println(arr2); // Prints null
-//        System.out.println(arr2[0]); // NullpointerException
+
 //         We can initialize it now.
         arr2 = new int[3]; //
         Student[] st1 = new Student[10]; // we have initialized to 10
