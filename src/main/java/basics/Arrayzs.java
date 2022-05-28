@@ -14,7 +14,7 @@ public class Arrayzs {
         System.out.println(arr2); // Prints null
 //        System.out.println(arr2[0]); // NullpointerException
 //         We can initialize it now.
-        arr2 = new int[3];
+        arr2 = new int[3]; //
         Student[] st1 = new Student[10]; // we have initialized to 10
         System.out.println(st1[1]);  // outputs null as there is no object.
         System.out.println(" size of array " +arr2.length);
