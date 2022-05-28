@@ -11,7 +11,7 @@ public class Arrays {
     public static void main(String[] args) {
         System.out.println(arr2); // It identified this but prints null .
         //        System.out.println(arr2[0]); // NullpointerException
-        int[] directinitialize = new int[] {1,2,3,4}; // direct initialization.
+        int[] directinitialize = new int[] {1,2,3,4}; // direct initialization. but dont give length in this kind.
         int[] initialize_auto = {1,2,3,4}; // another type of  initialization.
 
 //         We can initialize it now.

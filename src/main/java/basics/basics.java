@@ -8,7 +8,6 @@ public class basics {
 //  JAVA Is statistically typed language. Once we define a type, we can only assign values of that type else we need to typecast.
 //1.    We can skip assignment at class level ( defaults to 0 for int ) , but it should be done in method.
 //2.   We should always assign at method level.
-
     int c = 10;  // declaration statements can appear anywhere in the class & initialization is optional at class level.
     //
     // c  = 20 ;   // Assignments cannot appear at class-level they can appear inside methods , thats why its commented here.

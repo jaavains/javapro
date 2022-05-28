@@ -37,9 +37,7 @@ public class Instructor {
 
     public Book updateBook(int index, String title) {
 //       need to return old book title.
-        Book oldBook =books[index];
-         books[index] = new Book(title);
-         return oldBook;
+       return updateBook(index,new Book(title));
     }
 
     public Book updateBook(int index, Book book) {
