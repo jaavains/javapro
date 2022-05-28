@@ -20,6 +20,12 @@ public class Arrayzs {
         System.out.println(" size of array " +arr2.length);
         Student[] st = {new Student(),new Student(),new Student()}; // for small lengths
         System.out.println(st[0]);
+        // 2D arrays are array of array of Student. |
+        Student[][] twoDarray = new Student[5][];   // Irregular row sizes for symmetric matices.
+
+//      2D
+
+
 
 
     }
