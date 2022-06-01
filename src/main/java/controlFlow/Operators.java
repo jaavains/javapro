@@ -6,7 +6,7 @@ public class Operators {
 //   ternary ->  always uses only ?:  | x>2 ? 1 : 0
 //    Compound operators -> += , -= ..
 // Operator precedence .
-//    *,/,% ( multiplicative )  > - , + ( additive )
+//    *,/,% ( multiplicative )  [g.e] - , + ( additive )
 //    ! > arthimatic  > comparision > && , || | So keep && , || in between ().
 // Operator promotion
 //    operands smaller than int are promoted to int.
@@ -27,7 +27,7 @@ public class Operators {
 
 
     public static void main(String[] args) {
-        System.out.println((a/b) * c); // (int 10/int 20) = int 0 | 0 * 30.0 = 0.0
+        System.out.println((a/b) * c); // (int 10/int 20) = int 0 -->  0 * 30.0 = 0.0
     }
 
 
