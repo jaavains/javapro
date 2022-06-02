@@ -3,7 +3,9 @@ package basics.dtypes;
 public class Student {
     public static String schooled = "DCPS"; // if not public , classes outside dtype package cannt see this Class.
     int a;
-    String name, cls, school;
+    private String name;
+    String cls;
+    String school;
 
     public Student() {
     }
@@ -24,5 +26,10 @@ public class Student {
 
     public void updateSchool() {
         school = "NEWDCPS";
+    }
+
+
+    boolean equals(Student s) {
+        return this.name == s.name;
     }
 }
