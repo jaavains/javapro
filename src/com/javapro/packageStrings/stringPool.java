@@ -13,6 +13,8 @@ public class stringPool {
         System.out.println(s1 == s3); // false , as object reference is different.
         String s4 = "insideStringpoo";
         String s5 = s4 + "l";  // this creates an object outside string pool.
+//        Make sure not to concatenate more strings , leads to performance issues.
+//         If needed , use StringBuilder to use sb.append("avin").append("nash")
         System.out.println(s3 == s5);  // false
         s5 = s5.intern(); // this makes s5 refer the object in string pool . But better dont try ,let jvm take care. May work in NLP !
         System.out.println(s1 == s5); // true
