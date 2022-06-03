@@ -13,6 +13,10 @@ public class stringBuilders {
         System.out.println(sb.reverse()); // reverse
         System.out.println(sb.reverse().delete(5,9));
 
+//         Escape characters :
+        System.out.println("hello\"s '");
+
+
     }
 }
 // StringBuffer --> older api , but synchronized , so it slows down the execution as any time 1 thread modifies the object.
