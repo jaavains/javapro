@@ -21,6 +21,12 @@ public class string {
 // Static method from String
         System.out.println(String.valueOf(19.0));
 
+//
+        String longString = "This string is very long.";
+        String other = "This string" + " is " + "very long.";   // both are same.
+
+        String is = " is ";
+        String others = "This string" + is + "very long.";     // longString & this are not same because it uses a variable
 
 
     }
