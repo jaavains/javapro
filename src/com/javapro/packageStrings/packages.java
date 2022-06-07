@@ -1,4 +1,5 @@
 package packageStrings;
+// Ensure matching directory structure.
 // there are about 4000 + classes in various packages.
 // ```````````````````````````````````````````````````
 // java.lang  -> Fundamental classes like String , imported by Default.
@@ -9,7 +10,6 @@ package packageStrings;
 // Apache Commons,Google Guava -> advanced data structures .
 
 //  we should avoid multiple imports as some times a class like 'Date' can be present in different packages  .
-
 // Access modifiers
 // public is the access modifier here.
 public class packages {
